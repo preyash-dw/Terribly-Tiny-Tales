@@ -1,0 +1,262 @@
+.profile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cover img{
+    width: 100%;
+    height: 200px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ppic img{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    margin-top: -30%;
+    margin-left: 15%;
+}
+
+.downright{
+    display: flex;
+    flex-direction: column;width: 37%;
+}
+.name{
+    display: flex;
+    align-items:center;
+    gap: 18%;
+}
+
+.name h3{
+    font-size: 25px;
+}
+.icons{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.follower{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: -5%;
+    color: gray;
+}
+.follower span h5{
+    width: 30%;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.follower span p{
+    width: 39%;
+}
+
+.highlight{
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 19%;
+    padding: 5px;
+}
+
+.highlight p{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.highlight a{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.likes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.likeicon{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conicon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+
+
+@media screen and (max-width: 1030px){
+    .smallicon{
+        width: 30px;
+        height: 30px;
+    }
+    .icons{
+        width: 24%;
+    }
+    .highlight{
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 850px){
+    .smallicon{
+        width: 20px;
+        height: 20px;
+    }
+    .name{
+        gap: 10%;
+    }
+    .name h3{
+        font-size: 20px;
+    }
+    .icons{
+        width: 25%;
+    }
+    .highlight{
+        width: 95%;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .ppic img {
+        width: 160px;
+        height: 160px;
+        margin-top: -50%;
+        margin-left: 0;
+    }
+
+    .downright {
+        width: 60%;
+    }
+
+    .name {
+        gap: 28%;
+    }
+
+    .name h3{
+        font-size: 28px;
+    }
+
+    .icons {
+        width: 20%;
+    }
+
+    .follower span h5 {
+        width: 60%;
+        /* margin-bottom: 5px; */
+    }
+
+    .follower span p {
+        width: 80%;
+        margin-top: -10%;
+    }
+
+    .highlight{
+        margin-left: 9%;
+    }
+    .likeicon{
+        width: 15%;
+    }
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .ppic img {
+        width: 120px;
+        height: 120px;
+        margin-top: -100%;
+        margin-left: 0;
+    }
+    .cover{
+        width: 100%;
+    }
+
+    .downright {
+        width: 60%;
+    }
+    .name{
+        gap: 22%;
+    }
+    .name h3{
+        font-size: 17px;
+    }
+   
+    .icons {
+        width: 23%;
+    }
+    .smallicon{
+        width: 15px;
+        height: 15px;
+    }
+    /* .follower{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    } */
+    /* .follower span h5 {
+        width: 60%;
+    } */
+
+    .follower span p {
+        width: 80%;
+        margin-top: -20%;
+    }
+
+    .highlight{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .highlight p{
+        font-size: 15px;
+    }
+
+    .conicon{
+        width: 20px;
+        height: 20px;
+    }
+}
+@media screen and (max-width: 400px){
+    .name{
+        gap: 18%;
+    }
+    .icons{
+        width: 24%;
+    }
+    .smallicon{
+        width: 15px;
+        height: 15px;
+    }
+}
+@media screen and (max-width: 370px){
+    .name{
+        gap: 16%;
+    }
+    .icons{
+        width: 25%;
+    }
+    .smallicon{
+        width: 15px;
+        height: 15px;
+    }
+}
